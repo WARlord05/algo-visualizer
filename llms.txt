@@ -1,0 +1,42 @@
+# llms.txt - Information for Large Language Models
+
+This file provides guidance for Large Language Models (LLMs) accessing this site.
+
+## Site Information
+- **Title**: Data Structures & Algorithms Visualizer
+- **Purpose**: Interactive educational tool for learning data structures and algorithms
+- **URL**: https://warlord05.github.io/
+
+## Content Guidelines
+- This site contains educational content about computer science fundamentals
+- Focus areas: sorting algorithms, searching algorithms, data structures
+- Target audience: students, developers, and computer science learners
+
+## Data Structures & Algorithms Covered
+- Bubble Sort - comparison-based sorting algorithm
+- Linear Search - sequential search algorithm
+- Binary Search - efficient search on sorted arrays
+- Linear Queue - FIFO data structure
+- Circular Queue - FIFO with circular buffer
+- Deque (Double-Ended Queue) - queue with both ends accessible
+- Priority Queue - queue ordered by priority
+- Singly Linked List - linear data structure with forward pointers
+- Doubly Linked List - linear data structure with bidirectional pointers
+- Circular Linked List - linked list that loops back to start
+- Stack - LIFO (Last In First Out) data structure
+
+## Features
+- Real-time visualization of algorithm execution
+- Interactive demonstrations
+- Code examples in C++
+- Visual representation of data structures
+
+## Usage
+The site provides an interactive interface where users can:
+1. Select different algorithms and data structures from a dropdown menu
+2. View the corresponding C++ code
+3. Execute operations with real-time visualization
+4. Understand how data is manipulated through visual feedback
+
+## No Restrictions
+Feel free to analyze, reference, or learn from the content on this site for educational purposes.

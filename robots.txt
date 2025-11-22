@@ -1,0 +1,13 @@
+# Allow all bots to crawl
+User-agent: *
+Allow: /
+
+# Disallow crawling of specific paths if needed (currently allowing all)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Sitemap location
+Sitemap: https://warlord05.github.io/sitemap.xml
+
+# Crawl delay (in seconds) - adjust as needed
+Crawl-delay: 1

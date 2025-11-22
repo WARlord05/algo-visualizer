@@ -3,9 +3,41 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Student Database Algorithms Visualization</title>
+<meta name="description" content="Interactive Data Structures & Algorithms Visualizer. Learn sorting, searching, queues, stacks, and linked lists with real-time visualization. Perfect for students and developers." />
+<meta name="keywords" content="data structures, algorithms, visualization, sorting, searching, queues, stacks, linked lists, bubble sort, binary search, learning tool" />
+<meta name="author" content="Student Database Visualizer" />
+<meta name="robots" content="index, follow" />
+<meta property="og:title" content="Data Structures & Algorithms Visualizer" />
+<meta property="og:description" content="Interactive visualization tool for learning data structures and algorithms with real-time demonstrations." />
+<meta property="og:type" content="website" />
+<link rel="canonical" href="https://warlord05.github.io/" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="shortcut icon" type="image/svg+xml" href="/favicon.svg" />
+<title>Data Structures & Algorithms Visualizer - Interactive Learning Tool for Sorting, Searching & Linked Lists</title>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5669546026348473"
      crossorigin="anonymous"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EducationalWebApplication",
+  "name": "Data Structures & Algorithms Visualizer",
+  "description": "Interactive visualization tool for learning data structures and algorithms with real-time demonstrations",
+  "url": "https://warlord05.github.io/",
+  "applicationCategory": "EducationalApplication",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Student Database Visualizer"
+  },
+  "learningResourceType": ["Interactive Tutorial", "Educational Tool"],
+  "educationalLevel": "Intermediate",
+  "keywords": "data structures, algorithms, visualization, sorting, searching, queues, stacks, linked lists"
+}
+</script>
 <style>
   body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -43,6 +75,21 @@
     color: #004085;
     font-weight: 600;
     margin-bottom: 0.8em;
+  }
+  h2 {
+    color: #003366;
+    font-weight: 600;
+    margin-top: 1.5em;
+    margin-bottom: 0.8em;
+    font-size: 1.5em;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 0.5em;
+  }
+  h3 {
+    color: #004085;
+    font-weight: 600;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
   }
   .intro-text {
     text-align: center;
@@ -363,6 +410,7 @@
     </script>
   </div>
 
+  <h2>Select Algorithm or Data Structure</h2>
   <div class="dropdown-container">
     <label for="algorithm-select">Choose an Algorithm or Data Structure:</label>
     <select id="algorithm-select">
@@ -388,10 +436,12 @@
     </select>
   </div>
 
+  <h2>Algorithm Implementation</h2>
   <div id="code-container">
     <pre id="cpp-code"></pre>
   </div>
 
+  <h2>Interactive Visualization</h2>
   <div class="database" id="student-db"></div>
 
   <div class="controls" id="controls">
